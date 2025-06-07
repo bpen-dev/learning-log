@@ -86,5 +86,7 @@ git push origin main
 
 ```bash
 cd my-static-site/
-eval "$(ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+code .
 ```
